@@ -2,10 +2,10 @@ package stack
 
 type Stack struct {}
 
-func(s *Stack) push() string {
+func(s *Stack) Push() string {
 	return "pushed"
 }
 
-func(s *Stack) pop() string {
+func(s *Stack) Pop() string {
 	return "popped"
 }

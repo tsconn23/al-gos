@@ -2,10 +2,10 @@ package queue
 
 type Queue struct {}
 
-func(q *Queue) enqueue() string {
+func(q *Queue) Enqueue() string {
 	return "enqueued"
 }
 
-func(q *Queue) dequeue() string {
+func(q *Queue) Dequeue() string {
 	return "dequeued"
 }
